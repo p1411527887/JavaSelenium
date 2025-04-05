@@ -1,4 +1,4 @@
-package webdriver;
+package BaiTap;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -64,6 +64,7 @@ public class BaiTap_01_Locator {
         driver.findElement(By.xpath("//button[@class='button-1 search-box-button']"));
 
     }
+
     @AfterClass
     public void cleanBrower(){
         driver.quit();

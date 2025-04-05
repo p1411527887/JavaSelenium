@@ -13,7 +13,7 @@ public class Topic_00_Template {
     @BeforeClass
     public void beforeClass(){
         driver = new ChromeDriver();
-        driver.get("https://demo.nopcommerce.com/");
+        driver.get("https://demo.nopcommerce.com/login");
     }
     @Test
     public void TC_01_Regiter(){
