@@ -22,6 +22,7 @@ public class Topic_02_Selenium_Locator {
         driver.findElement(By.xpath("//a[@ng-click='chooseAreaCtrl.filterAreas.pickup();']")).click();
         driver.findElement(By.xpath("//button[@aria-label='Choose Bustleton Ave - 11701 Bustleton Ave, Philadelphia, PA']")).click();
         driver.findElement(By.xpath("//button[@class='no-design login']"));
+        driver.findElement(By.xpath("https://www.shop.netcostmarket.com/specials"));
 
     }
 
