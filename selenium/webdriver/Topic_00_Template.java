@@ -16,7 +16,7 @@ public class Topic_00_Template {
     public void beforeClass(){
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get("https://demo.nopcommerce.com/login");
+        //driver.get("https://demo.nopcommerce.com/login");
     }
     @Test
     public void TC_01_Regiter(){
@@ -28,7 +28,6 @@ public class Topic_00_Template {
     }
     @AfterClass
     public void cleanBrower(){
-
         driver.quit();
     }
 }
