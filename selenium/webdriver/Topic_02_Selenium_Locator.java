@@ -16,6 +16,7 @@ public class Topic_02_Selenium_Locator {
     public void beforeClass(){
         driver = new ChromeDriver();
         driver.get("https://www.shop.netcostmarket.com/");
+
     }
     @Test
     public void TC_01_Regiter(){
